@@ -7,21 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		578ABB0B215B182800C78DBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578ABB0A215B182800C78DBB /* AppDelegate.swift */; };
-		578ABB0D215B182800C78DBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578ABB0C215B182800C78DBB /* ViewController.swift */; };
-		578ABB10215B182800C78DBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578ABB0E215B182800C78DBB /* Main.storyboard */; };
 		578ABB12215B182A00C78DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578ABB11215B182A00C78DBB /* Assets.xcassets */; };
-		578ABB15215B182A00C78DBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578ABB13215B182A00C78DBB /* LaunchScreen.storyboard */; };
+		578ABB1E215B186E00C78DBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578ABB1D215B186E00C78DBB /* AppDelegate.swift */; };
+		578ABB20215B187E00C78DBB /* TTRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578ABB1F215B187E00C78DBB /* TTRootViewController.swift */; };
+		578ABB33215B192D00C78DBB /* TTHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578ABB32215B192D00C78DBB /* TTHomeViewController.swift */; };
+		578ABB35215B193C00C78DBB /* TTShortVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578ABB34215B193C00C78DBB /* TTShortVideoViewController.swift */; };
+		578ABB37215B194B00C78DBB /* TTWatermelonVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578ABB36215B194B00C78DBB /* TTWatermelonVideoViewController.swift */; };
+		578ABB39215B195500C78DBB /* TTFindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578ABB38215B195500C78DBB /* TTFindViewController.swift */; };
+		578ABB3D215B1B0700C78DBB /* category.plist in Resources */ = {isa = PBXBuildFile; fileRef = 578ABB3C215B1B0700C78DBB /* category.plist */; };
+		578ABB40215B1DBC00C78DBB /* TTAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578ABB3F215B1DBC00C78DBB /* TTAPIManager.swift */; };
+		578ABB42215B1DDE00C78DBB /* TTRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578ABB41215B1DDE00C78DBB /* TTRequestManager.swift */; };
+		578ABB45215B2AF200C78DBB /* TTTagManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578ABB44215B2AF200C78DBB /* TTTagManager.swift */; };
+		578ABB47215B2D3100C78DBB /* TTTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578ABB46215B2D3100C78DBB /* TTTagViewController.swift */; };
+		578ABB49215B587500C78DBB /* TTTagsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578ABB48215B587500C78DBB /* TTTagsCell.swift */; };
+		578ABB4B215B5F2200C78DBB /* TTTagsSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578ABB4A215B5F2200C78DBB /* TTTagsSectionHeaderView.swift */; };
+		578ABB4D215B6BDC00C78DBB /* TTTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578ABB4C215B6BDC00C78DBB /* TTTag.swift */; };
+		57DFA49C215C76AE006F5156 /* TTCommonParamaters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DFA49B215C76AE006F5156 /* TTCommonParamaters.swift */; };
+		57DFA49E215CAB72006F5156 /* TTSegementControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DFA49D215CAB72006F5156 /* TTSegementControl.swift */; };
+		57DFA4A0215CB4E7006F5156 /* TTTagsHotArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DFA49F215CB4E7006F5156 /* TTTagsHotArticleCell.swift */; };
+		57DFA4A2215CB6E0006F5156 /* TTArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DFA4A1215CB6E0006F5156 /* TTArticleViewController.swift */; };
+		57DFA4A4215CC1B4006F5156 /* TTArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DFA4A3215CC1B4006F5156 /* TTArticle.swift */; };
+		88EB3EF8B97AD24C440DC630 /* Pods_TouTiao_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5A206BE1E877AD60DE1E36 /* Pods_TouTiao_Swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		578ABB07215B182800C78DBB /* TouTiao_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouTiao_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		578ABB0A215B182800C78DBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		578ABB0C215B182800C78DBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		578ABB0F215B182800C78DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		578ABB11215B182A00C78DBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		578ABB14215B182A00C78DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		578ABB16215B182A00C78DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		578ABB1D215B186E00C78DBB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		578ABB1F215B187E00C78DBB /* TTRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTRootViewController.swift; sourceTree = "<group>"; };
+		578ABB32215B192D00C78DBB /* TTHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTHomeViewController.swift; sourceTree = "<group>"; };
+		578ABB34215B193C00C78DBB /* TTShortVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTShortVideoViewController.swift; sourceTree = "<group>"; };
+		578ABB36215B194B00C78DBB /* TTWatermelonVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTWatermelonVideoViewController.swift; sourceTree = "<group>"; };
+		578ABB38215B195500C78DBB /* TTFindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTFindViewController.swift; sourceTree = "<group>"; };
+		578ABB3C215B1B0700C78DBB /* category.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = category.plist; sourceTree = "<group>"; };
+		578ABB3F215B1DBC00C78DBB /* TTAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTAPIManager.swift; sourceTree = "<group>"; };
+		578ABB41215B1DDE00C78DBB /* TTRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTRequestManager.swift; sourceTree = "<group>"; };
+		578ABB44215B2AF200C78DBB /* TTTagManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTagManager.swift; sourceTree = "<group>"; };
+		578ABB46215B2D3100C78DBB /* TTTagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTagViewController.swift; sourceTree = "<group>"; };
+		578ABB48215B587500C78DBB /* TTTagsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTagsCell.swift; sourceTree = "<group>"; };
+		578ABB4A215B5F2200C78DBB /* TTTagsSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTagsSectionHeaderView.swift; sourceTree = "<group>"; };
+		578ABB4C215B6BDC00C78DBB /* TTTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTag.swift; sourceTree = "<group>"; };
+		57DFA49B215C76AE006F5156 /* TTCommonParamaters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTCommonParamaters.swift; sourceTree = "<group>"; };
+		57DFA49D215CAB72006F5156 /* TTSegementControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSegementControl.swift; sourceTree = "<group>"; };
+		57DFA49F215CB4E7006F5156 /* TTTagsHotArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTagsHotArticleCell.swift; sourceTree = "<group>"; };
+		57DFA4A1215CB6E0006F5156 /* TTArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTArticleViewController.swift; sourceTree = "<group>"; };
+		57DFA4A3215CC1B4006F5156 /* TTArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTArticle.swift; sourceTree = "<group>"; };
+		5AC15B6569861DC7C358FE74 /* Pods-TouTiao_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouTiao_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TouTiao_Swift/Pods-TouTiao_Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		5D5A206BE1E877AD60DE1E36 /* Pods_TouTiao_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TouTiao_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27B3281D10886F38B82BF45 /* Pods-TouTiao_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouTiao_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-TouTiao_Swift/Pods-TouTiao_Swift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +63,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88EB3EF8B97AD24C440DC630 /* Pods_TouTiao_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B374C04A31BA73B0AADB747 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D5A206BE1E877AD60DE1E36 /* Pods_TouTiao_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		578ABAFE215B182800C78DBB = {
 			isa = PBXGroup;
 			children = (
 				578ABB09215B182800C78DBB /* TouTiao_Swift */,
 				578ABB08215B182800C78DBB /* Products */,
+				AB0FDCA5B9B0F6334E958576 /* Pods */,
+				3B374C04A31BA73B0AADB747 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +99,214 @@
 		578ABB09215B182800C78DBB /* TouTiao_Swift */ = {
 			isa = PBXGroup;
 			children = (
-				578ABB0A215B182800C78DBB /* AppDelegate.swift */,
-				578ABB0C215B182800C78DBB /* ViewController.swift */,
-				578ABB0E215B182800C78DBB /* Main.storyboard */,
+				578ABB1C215B186E00C78DBB /* AppDelegate */,
+				578ABB21215B192200C78DBB /* Modules */,
+				578ABB3E215B1C6800C78DBB /* Manager */,
+				578ABB3A215B1ADE00C78DBB /* Resource */,
 				578ABB11215B182A00C78DBB /* Assets.xcassets */,
-				578ABB13215B182A00C78DBB /* LaunchScreen.storyboard */,
 				578ABB16215B182A00C78DBB /* Info.plist */,
 			);
 			path = TouTiao_Swift;
+			sourceTree = "<group>";
+		};
+		578ABB1C215B186E00C78DBB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				578ABB1D215B186E00C78DBB /* AppDelegate.swift */,
+				578ABB1F215B187E00C78DBB /* TTRootViewController.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		578ABB21215B192200C78DBB /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				578ABB22215B192200C78DBB /* Home */,
+				578ABB2A215B192200C78DBB /* WatermelonVideo */,
+				578ABB2E215B192200C78DBB /* Find */,
+				578ABB26215B192200C78DBB /* ShortVideo */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		578ABB22215B192200C78DBB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				578ABB23215B192200C78DBB /* Controller */,
+				578ABB24215B192200C78DBB /* Model */,
+				578ABB25215B192200C78DBB /* View */,
+				578ABB43215B2AD500C78DBB /* Manager */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		578ABB23215B192200C78DBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				578ABB32215B192D00C78DBB /* TTHomeViewController.swift */,
+				57DFA4A1215CB6E0006F5156 /* TTArticleViewController.swift */,
+				578ABB46215B2D3100C78DBB /* TTTagViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		578ABB24215B192200C78DBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				578ABB4C215B6BDC00C78DBB /* TTTag.swift */,
+				57DFA4A3215CC1B4006F5156 /* TTArticle.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		578ABB25215B192200C78DBB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				578ABB4A215B5F2200C78DBB /* TTTagsSectionHeaderView.swift */,
+				578ABB48215B587500C78DBB /* TTTagsCell.swift */,
+				57DFA49D215CAB72006F5156 /* TTSegementControl.swift */,
+				57DFA49F215CB4E7006F5156 /* TTTagsHotArticleCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		578ABB26215B192200C78DBB /* ShortVideo */ = {
+			isa = PBXGroup;
+			children = (
+				578ABB27215B192200C78DBB /* Controller */,
+				578ABB28215B192200C78DBB /* Model */,
+				578ABB29215B192200C78DBB /* View */,
+			);
+			path = ShortVideo;
+			sourceTree = "<group>";
+		};
+		578ABB27215B192200C78DBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				578ABB34215B193C00C78DBB /* TTShortVideoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		578ABB28215B192200C78DBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		578ABB29215B192200C78DBB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		578ABB2A215B192200C78DBB /* WatermelonVideo */ = {
+			isa = PBXGroup;
+			children = (
+				578ABB2B215B192200C78DBB /* Controller */,
+				578ABB2C215B192200C78DBB /* Model */,
+				578ABB2D215B192200C78DBB /* View */,
+			);
+			path = WatermelonVideo;
+			sourceTree = "<group>";
+		};
+		578ABB2B215B192200C78DBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				578ABB36215B194B00C78DBB /* TTWatermelonVideoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		578ABB2C215B192200C78DBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		578ABB2D215B192200C78DBB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		578ABB2E215B192200C78DBB /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				578ABB2F215B192200C78DBB /* Controller */,
+				578ABB30215B192200C78DBB /* Model */,
+				578ABB31215B192200C78DBB /* View */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		578ABB2F215B192200C78DBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				578ABB38215B195500C78DBB /* TTFindViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		578ABB30215B192200C78DBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		578ABB31215B192200C78DBB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		578ABB3A215B1ADE00C78DBB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				578ABB3B215B1ADE00C78DBB /* Data */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		578ABB3B215B1ADE00C78DBB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				578ABB3C215B1B0700C78DBB /* category.plist */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		578ABB3E215B1C6800C78DBB /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				578ABB3F215B1DBC00C78DBB /* TTAPIManager.swift */,
+				578ABB41215B1DDE00C78DBB /* TTRequestManager.swift */,
+				57DFA49B215C76AE006F5156 /* TTCommonParamaters.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		578ABB43215B2AD500C78DBB /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				578ABB44215B2AF200C78DBB /* TTTagManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		AB0FDCA5B9B0F6334E958576 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AC15B6569861DC7C358FE74 /* Pods-TouTiao_Swift.debug.xcconfig */,
+				B27B3281D10886F38B82BF45 /* Pods-TouTiao_Swift.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +316,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 578ABB19215B182A00C78DBB /* Build configuration list for PBXNativeTarget "TouTiao_Swift" */;
 			buildPhases = (
+				AB43970CB30933746389C5CC /* [CP] Check Pods Manifest.lock */,
 				578ABB03215B182800C78DBB /* Sources */,
 				578ABB04215B182800C78DBB /* Frameworks */,
 				578ABB05215B182800C78DBB /* Resources */,
+				47548C6CD097239FCF6218BA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,44 +369,91 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				578ABB15215B182A00C78DBB /* LaunchScreen.storyboard in Resources */,
+				578ABB3D215B1B0700C78DBB /* category.plist in Resources */,
 				578ABB12215B182A00C78DBB /* Assets.xcassets in Resources */,
-				578ABB10215B182800C78DBB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47548C6CD097239FCF6218BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TouTiao_Swift/Pods-TouTiao_Swift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TouTiao_Swift/Pods-TouTiao_Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB43970CB30933746389C5CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TouTiao_Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		578ABB03215B182800C78DBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				578ABB0D215B182800C78DBB /* ViewController.swift in Sources */,
-				578ABB0B215B182800C78DBB /* AppDelegate.swift in Sources */,
+				57DFA49C215C76AE006F5156 /* TTCommonParamaters.swift in Sources */,
+				578ABB4B215B5F2200C78DBB /* TTTagsSectionHeaderView.swift in Sources */,
+				578ABB20215B187E00C78DBB /* TTRootViewController.swift in Sources */,
+				57DFA49E215CAB72006F5156 /* TTSegementControl.swift in Sources */,
+				578ABB39215B195500C78DBB /* TTFindViewController.swift in Sources */,
+				578ABB45215B2AF200C78DBB /* TTTagManager.swift in Sources */,
+				578ABB37215B194B00C78DBB /* TTWatermelonVideoViewController.swift in Sources */,
+				578ABB1E215B186E00C78DBB /* AppDelegate.swift in Sources */,
+				578ABB4D215B6BDC00C78DBB /* TTTag.swift in Sources */,
+				57DFA4A2215CB6E0006F5156 /* TTArticleViewController.swift in Sources */,
+				578ABB35215B193C00C78DBB /* TTShortVideoViewController.swift in Sources */,
+				578ABB49215B587500C78DBB /* TTTagsCell.swift in Sources */,
+				57DFA4A0215CB4E7006F5156 /* TTTagsHotArticleCell.swift in Sources */,
+				578ABB42215B1DDE00C78DBB /* TTRequestManager.swift in Sources */,
+				57DFA4A4215CC1B4006F5156 /* TTArticle.swift in Sources */,
+				578ABB40215B1DBC00C78DBB /* TTAPIManager.swift in Sources */,
+				578ABB33215B192D00C78DBB /* TTHomeViewController.swift in Sources */,
+				578ABB47215B2D3100C78DBB /* TTTagViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		578ABB0E215B182800C78DBB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				578ABB0F215B182800C78DBB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		578ABB13215B182A00C78DBB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				578ABB14215B182A00C78DBB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		578ABB17215B182A00C78DBB /* Debug */ = {
@@ -280,10 +574,13 @@
 		};
 		578ABB1A215B182A00C78DBB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AC15B6569861DC7C358FE74 /* Pods-TouTiao_Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TouTiao_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,10 +594,13 @@
 		};
 		578ABB1B215B182A00C78DBB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B27B3281D10886F38B82BF45 /* Pods-TouTiao_Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TouTiao_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
